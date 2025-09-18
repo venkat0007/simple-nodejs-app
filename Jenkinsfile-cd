@@ -19,7 +19,7 @@ spec:
                 container('gcloud') {
                     script {
                         def repoUrl = 'https://github.com/venkat0007/simple-nodejs-app.git'
-                        def branchName = 'main'
+                        def branchName = 'master'
                         checkout([$class: 'GitSCM',
                                   branches: [[name: "refs/heads/${branchName}"]],
                                   userRemoteConfigs: [[url: repoUrl]]])
