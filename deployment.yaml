@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: frontend
-        image: us-central1-docker.pkg.dev/test-468900/frontend/frontend-api:3.0
+        image: us-central1-docker.pkg.dev/test-468900/frontend/frontend:new
         ports:
         - containerPort: 3000
 
